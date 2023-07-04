@@ -4,18 +4,35 @@
 }
 
 body {
-    background-color: #32323c;
+    background-color: #16161b;
     height: 100%;
     overflow-x: hidden;
 }
 
 .title {
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     font-family: Georgia;
-    background-color: #282832;
-    box-shadow: 0.2vw 0.2vh 0.5px #2d2d37;
+    box-shadow: 0.2vw 0.2vh 0.5px #1e1e24;
     padding: 25vh 0vh 40vh;
     margin: -2vh -2vh 10vh -2vh;
+}
+
+#title-home {
+    background-image: url("images/bg_1.jpeg");
+}
+
+#title-rules {
+    background-image: url("images/bg_2.jpeg");
+}
+
+#title-tags {
+    background-image: url("images/bg_3.jpeg");
+}
+
+#title-faq {
+    background-image: url("images/bg_4.jpeg");
 }
 
 h1 {
